@@ -1,0 +1,8 @@
+safet[hidapi]>=0.1.0
+-e git+https://github.com/omotenashicoin-project/python-keepkey.git#egg=keepkey-master
+-e git+https://github.com/omotenashicoin-project/python-trezor.git#egg=trezor-master
+btchip-python>=0.1.26
+ckcc-protocol>=0.7.2
+websocket-client
+mtns-skein-hash==1.0
+hidapi

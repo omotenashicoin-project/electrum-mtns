@@ -1,0 +1,22 @@
+# If you want Electrum to appear in a Linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install electrum.desktop
+
+[Desktop Entry]
+Comment=Lightweight Omotenashicoin Client
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-mtns %u"
+GenericName[en_US]=Omotenashicoin Wallet
+GenericName=Omotenashicoin Wallet
+Icon=electrum
+Name[en_US]=Electrum Omotenashicoin Wallet
+Name=Electrum Omotenashicoin Wallet
+Categories=Finance;Network;
+StartupNotify=true
+StartupWMClass=electrum
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/omotenashicoin;
+Actions=Testnet;
+
+[Desktop Action Testnet]
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-mtns --testnet %u"
+Name=Testnet mode

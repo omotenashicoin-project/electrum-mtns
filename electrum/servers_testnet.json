@@ -1,0 +1,8 @@
+{
+    "electrum.hashexplorer.net": {
+        "pruning": "-",
+        "s": "51002",
+        "t": "51001",
+        "version": "1.0"
+    }
+}
